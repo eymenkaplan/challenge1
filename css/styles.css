@@ -1,0 +1,102 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+font-size: 15px;
+
+}
+
+h1{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700px;
+}
+h3{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700px;
+}
+h5{
+  color:hsla(0, 0%, 100%, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+}
+p{
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+}
+span{
+  color:hsl(277, 64%, 61%);
+}
+img{
+  width: 650px;
+  height: 400px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:hsl(277, 64%, 61%);
+}
+.main{
+margin: 150px auto;
+display: flex;
+}
+
+.left-container{
+width: 700px;
+height:400px;
+background-color: hsl(244, 38%, 16%);
+position: relative;
+left: 150px;
+}
+.header{
+width: 50%;
+position: absolute;
+left:80px;
+top:40px;
+}
+.paragraph{
+width: 50%;
+position: absolute;
+left: 80px;
+top:140px;
+}
+.companies{
+line-height: 0.50;
+width: 15%;
+position: absolute;
+left: 80px;
+top:250px;
+}
+
+.templates{
+line-height: 0.50;
+width: 15%;
+position: absolute;
+left:200px;
+top:250px;
+}
+
+.queries{
+line-height: 0.50;
+width: 15%;
+position: absolute;
+left:320px;
+top:250px;
+}
+
+.right-container{
+  width: 650px;
+  height:400px;
+  position: absolute;
+  right: 150px;
+  top:150px;
+}
+.challenge{
+  text-align: center;
+
+}
+.photo{
+
+}
